@@ -6,10 +6,11 @@
     <title>Dribble</title>
     <style>
         header {
-            color: white
+            color: white;
             justify-content: space-between;
             margin-top: none;
-            flex-direction: row;
+            display: flex;
+            align-items: center;
         }
         .nav {
             display:flex;
@@ -69,20 +70,18 @@
             width: 200px;
             height: 200px;
         }
-.enter {
-    align-items: center;
-    border-radius: none;
-    background-color: white;
-    color: black;
-    margin-left: auto;
-    gap: 20px;
-}
 
 .container{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
 }
     </style>
 </head>
@@ -94,18 +93,20 @@
         <a href="">Hire talent</a>
         <a href="">Get Hired</a>
         <a href="">community</a>
-        <div class="right">
+        </div>
+        <div>
+<div class="right">
             <button class="enter">Sign In</button>
             <button class="enter">log in</button>
         </div>
         </nav>
         </div>
-        <div>
-            <button class="hire">Hire talent</button>
-        </div>
     </header>
     <div class="container">
         <div class="text">
+            <div>
+                <button class="hire">Hire talent</button>
+            </div>
             <h1 class="hire">Work with the world’s<br>best in</h1>
             <p>Generate your brief and receive proposals–for free</p>
             <p>Browse real design and development work</p>
