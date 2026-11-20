@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dribble</title>
     <style>
-        
         header {
             color: white;
             justify-content: space-between;
             display: flex;
             align-items: center;
+            gap: 30px;
+
 
         }
         .nav {
@@ -41,6 +42,8 @@
             margin: 20px;
             color: black;
             text-decoration: none;
+            gap: 10px;
+            align-items: center;
     
         }
         form {
@@ -54,10 +57,12 @@
         .info {
             margin-top: 20px;
             padding: 10px;
-            border-radius: 5px;
             cursor: pointer;
             background-color: white;
             justify-content: space-between;
+            gap: 30px;
+            width: 110px;
+            border-radius: 30px;
 
         }
         img {
@@ -103,6 +108,29 @@
     border-radius: 40px;
     background-color: transparent;
 }
+.input{
+    width: 80%; 
+    margin-top: 30px;
+    border-radius: 70px;
+    border: none;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    display: flex;
+    
+}
+input{
+    width: auto;
+    border: none;
+    background-color: transparent;
+}
+.search{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 70px;
+}
     </style>
 </head>
 <body>
@@ -133,27 +161,24 @@
             <p>Hire top-rated freelancers and agencies</p>
             <button class="start">Start your project Brief</button>
                 </div>
+                
                 <div class="container">
                     <div class="right">
                         <img src="./image/5df9885dff73059369b6e0e6d6a4620c.jpeg" alt="">
                     </div>
-
                 </div>
                 
             </div>
-</div>
-<div>
-    <header>
-        <a href="">shorts</a>
+        </div> 
+         <a href="">shorts</a>
         <a  href="">Designers</a>
-        <a href="">services</a>
-    </header>
+        <a href="">services</a>                  
 </div>
-<div>
-    <form action="" method="post">
-      <input type="text" placeholder="What type of design are you interested in?">  
-    </form>
+<div class="input">
+    <input type="text" placeholder="what type of design are you intrested in">
+    <button class="search">Search</button>
 </div>
+
 <div>
     <a href="">popular:</a>
     <button class="info">Dashboard</button>
@@ -164,6 +189,9 @@
     <button class="info">animation</button>
     <button class="info">illustration</button>
     <button class="info">onboarding</button>
+  
+   
+
 </div>
 <div flex class="container">
     <img src="./image/09b7c11b2cc61904d27abc53a2dd0b45.jpeg" alt="">
